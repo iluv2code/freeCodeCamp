@@ -1,3 +1,4 @@
+//CHECK FOR PALINDROME
 function palindrome(str){
 	var re = /[,.'? ]/gi;
 	var result = str.replace(re,"").toLowerCase(); 
@@ -9,4 +10,5 @@ function palindrome(str){
 	}
 }
 
+//EXAMPLE
 palindrome("eye"); 
